@@ -1,26 +1,28 @@
 @prefix foo: <https://github.com/nerd100/ontologie/edit/master/Ontologie_Filme.txt>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-_:1		a			:Film;
-		:genre			:Abenteuer;
-		:release_date		:"2001"^^xsd:date;
-		:directed_by		:"Peter Jackson"^^xsd:String;
-		:title			:"The Lord of the Rings:The Fellowship of the Ring"^^xsd:String.
-		
-		
-_:2		a			:Film;
-		:genre			:Science-Fiction;
-		:release_date		:"1999"^^xsd:date;
-		:directed_by		:"Lana Wachowski, Lilly Wachowski"^^xsd:String;
-		:title			:"Matrix"^^xsd:String.
-		
-_:3		a			:Film;
-		:genre			:Drama;
-		:release_date		:"1994"^^xsd:date;
-		:directed_by		:"Frank Darabont"^^xsd:String;
-		:title			:"The Shawshank Redemption"^^xsd:String.
 
-_:4		a			:Film;
-		:genre			:Drama;
-		:release_date		:"1994"^^xsd:date;
-		:directed_by		:"Quentin Tarantino"^^xsd:String;
-		:title			:"Pulp Fiction"^^xsd:String.
+_:1		a			foo:Film;
+		foo:genre		foo:Abenteuer;
+		foo:release_date	"2001"^^xsd:date;
+		foo:directed_by		"Peter Jackson"^^xsd:String;
+		foo:title		"The Lord of the Rings:The Fellowship of the Ring"^^xsd:String.
+		
+		
+_:2		a			foo:Film;
+		foo:genre		foo:Science-Fiction;
+		foo:release_date	"1999"^^xsd:date;
+		foo:directed_by		"Lana Wachowski, Lilly Wachowski"^^xsd:String;
+		foo:title		"Matrix"^^xsd:String.
+		
+_:3		a			foo:Film;
+		foo:genre		foo:Drama;
+		foo:release_date	"1994"^^xsd:date;
+		foo:directed_by		"Frank Darabont"^^xsd:String;
+		foo:title		"The Shawshank Redemption"^^xsd:String.
+
+_:4		a			foo:Film;
+		foo:genre		foo:Drama;
+		foo:release_date	"1994"^^xsd:date;
+		foo:directed_by		"Quentin Tarantino"^^xsd:String;
+                foo:title               "Pulp Fiction"^^xsd:String.
