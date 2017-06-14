@@ -1,3 +1,5 @@
+@prefix foo: <https://github.com/nerd100/ontologie/edit/master/Ontologie_Filme.txt>.
+
 _:1		a			:Film;
 		:genre			:Abenteuer;
 		:release_date		:"2001"^^xsd:date;
